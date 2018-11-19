@@ -26,7 +26,7 @@ class User extends Component {
         <ul>{this.props.skills.map(item => <li> {item} </li>)}</ul>
         <hr/>
         
-        <button class="btn" onClick={() => this.incrementAge(3)}>Make Me Older</button>
+        <button className="btn" onClick={() => this.incrementAge(3)}>Make Me Older</button>
       </div>
     );
   }
